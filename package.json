@@ -1,9 +1,10 @@
 {
   "name": "vite-before-reload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Emit an event before Vite hot reload",
-  "main": "index.mjs",
   "type": "module",
+  "main": "index.mjs",
+  "types": "index.d.ts",
   "keywords": [
     "vite",
     "plugin",
@@ -11,5 +12,8 @@
   ],
   "author": "Cédric Tailly",
   "homepage": "https://github.com/cedrictailly/vite-before-reload",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vite": "*"
+  }
 }
